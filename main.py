@@ -15,5 +15,7 @@ for shop, products in shopping_list.items():
     
 
 print(f'W sumie kupuję {number_off_products} produktów')
-print(f'dodatkowa zmiana')
+for shop in shopping_list.items():
+    shop = shop.upper()
+    print(shop)
 print()
