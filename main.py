@@ -18,4 +18,5 @@ print(f'W sumie kupuję {number_off_products} produktów')
 for shop in shopping_list.items():
     shop = shop.upper()
     print(shop)
+print('*' * 20)
 print()
