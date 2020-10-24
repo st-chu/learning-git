@@ -15,8 +15,10 @@ for shop, products in shopping_list.items():
     
 
 print(f'W sumie kupuję {number_off_products} produktów')
-for shop in shopping_list.items():
-    shop = shop.capitalaze()
-    print(shop)
+
+
+for s, p in shopping_list.items():
+    #s = s.capitalaze()
+    print(s.capitalize())
 print('*' * 20)
 print()
